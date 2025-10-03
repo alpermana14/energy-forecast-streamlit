@@ -12,7 +12,7 @@ from tsfm_public.toolkit.visualization import plot_predictions
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
-    page_title="Energy Consumption Forecast",
+    page_title="Energy Consumption Forecast [UPDATED]",
     page_icon="⚡",
     layout="wide",
 )
