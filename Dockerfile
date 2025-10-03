@@ -26,8 +26,5 @@ COPY app.py .
 # Expose the port Streamlit runs on
 EXPOSE 8501
 
-# Health check
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-
 # Run the Streamlit app
 CMD ["streamlit", "run", "app.py"]
